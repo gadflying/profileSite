@@ -16,6 +16,16 @@
   color: #fff;
   text-decoration: none;
 }
+.bg{
+  background-color:transparent;
+  /*font: 20pt "Nothing You Could Do";
+  font-family: Roboto;
+  src: url("../static/fonts/NothingYouCouldDo") format("woff2"), url("../static/fonts/Roboto/Light/Roboto-Light.woff?v=1.1.0") format("woff"), url("../static/fonts/Roboto/Light/Roboto-Light.ttf?v=1.1.0") format("truetype");
+  font-weight: 300;
+  font-style: normal;*/
+}
+
+
 
 @media screen and (max-width: 1024px) {
 

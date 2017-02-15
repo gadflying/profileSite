@@ -14,5 +14,8 @@
   width: 100%;
 }
 .bg_image{
-  background:url(./bg_lightnings.jpg) no-repeat;
+background: -webkit-radial-gradient(rgba(35, 195, 168, 0.45), rgba(0, 134, 217, 0.1)) fixed, url(./bg_lightnings.jpg) no-repeat center center fixed, #004E9B;
+background: radial-gradient(rgba(35, 195, 168, 0.45), rgba(0, 134, 217, 0.1)) fixed, url(./bg_lightnings.jpg) no-repeat center center fixed, #004E9B;
+-webkit-background-size: cover;
+background-size: cover;
 }

@@ -12,6 +12,7 @@ import React from 'react';
 import Navigation from './Navigation';
 import Link from '../Link';
 import s from './Header.css';
+// import f from '.../src/static/font/NothingYouCouldDo.ttf';
 
 class Header extends React.Component {
 
@@ -25,10 +26,10 @@ class Header extends React.Component {
 
   render() {
     return (
-      <header className={`mdl-layout__header ${s.header}`} ref={node => (this.root = node)}>
+      <header className={`mdl-layout__header ${s.header} ${s.bg}`} ref={node => (this.root = node)}>
         <div className={`mdl-layout__header-row ${s.row}`}>
           <Link className={`mdl-layout-title ${s.title}`} to="/">
-            React Static Boilerplate
+            Joanna Chen
           </Link>
           <div className="mdl-layout-spacer" />
           <Navigation />
