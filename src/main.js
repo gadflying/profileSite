@@ -19,6 +19,7 @@ import { Provider } from 'react-redux';
 import store from './store';
 import router from './router';
 import history from './history';
+import globalStyles from './assets/styles/global.css';
 
 let routes = require('./routes.json').default; // Loaded with utils/routes-loader.js
 
