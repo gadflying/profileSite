@@ -12,6 +12,6 @@
        url('../fonts/nothing-you-could-do-v6-latin-regular.svg#NothingYouCouldDo') format('svg'); /* Legacy iOS */
 }
 
-body {
+header {
   font-family: 'Nothing You Could Do';
 }

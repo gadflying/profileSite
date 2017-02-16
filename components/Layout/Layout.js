@@ -27,7 +27,7 @@ class Layout extends React.Component {
   componentWillUnmount() {
     window.componentHandler.downgradeElements(this.root);
   }
-
+  // <Footer />
   render() {
     return (
       <div className="mdl-layout mdl-js-layout" ref={node => (this.root = node)}>
@@ -35,7 +35,7 @@ class Layout extends React.Component {
           <Header />
           <main className="mdl-layout__content">
             <div {...this.props} className={cx(s.content, this.props.className)} />
-            <Footer />
+
           </main>
         </div>
       </div>

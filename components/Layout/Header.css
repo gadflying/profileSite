@@ -9,7 +9,7 @@
 */
 
 .row {
-  padding: 40px;
+  padding: 43px;
 }
 
 .title {
@@ -18,16 +18,21 @@
 }
 .bg{
   background-color:transparent;
+}
+.center_title{
 
-  /* Background Gradient for Monochromatic Colors */
-
-    
-
-  /*font: 20pt "Nothing You Could Do";
-  font-family: Roboto;
-  src: url("../static/fonts/NothingYouCouldDo") format("woff2"), url("../static/fonts/Roboto/Light/Roboto-Light.woff?v=1.1.0") format("woff"), url("../static/fonts/Roboto/Light/Roboto-Light.ttf?v=1.1.0") format("truetype");
-  font-weight: 300;
-  font-style: normal;*/
+    display: block;
+    position: relative;
+    font-size: 34px;
+    line-height: 1;
+    letter-spacing: .02em;
+    font-weight: 700;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.substitle{
+    font-size: 17px;
+    font-weight: 500
 }
 
 

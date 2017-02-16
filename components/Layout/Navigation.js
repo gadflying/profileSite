@@ -10,6 +10,7 @@
 
 import React from 'react';
 import Link from '../Link';
+import s from './Header.css';
 
 class Navigation extends React.Component {
 
@@ -24,8 +25,10 @@ class Navigation extends React.Component {
   render() {
     return (
       <nav className="mdl-navigation" ref={node => (this.root = node)}>
-        <Link className="mdl-navigation__link" to="/">Home</Link>
-        <Link className="mdl-navigation__link" to="/about">About</Link>
+        <Link className="mdl-navigation__link ${s.substitle}" to="/">Home</Link>
+        <Link className="mdl-navigation__link ${s.substitle}" to="/about">Works</Link>
+        <Link className="mdl-navigation__link ${s.substitle}" to="/about">Blogs</Link>
+        <Link className="mdl-navigation__link ${s.substitle}" to="/about">Contact</Link>
       </nav>
     );
   }
